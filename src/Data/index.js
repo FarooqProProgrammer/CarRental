@@ -16,7 +16,7 @@ export const Data = [
     },
     {
         img: Car9,
-        title: 'Mercedez',
+        title: 'Civic',
         desc: 'Lorem ipsum dolor sit amet consectetur adipiscing, elit risus est feugiat.',
         price: "$13.00",
     },
@@ -28,19 +28,19 @@ export const Data = [
     },
     {
         img: Car4,
-        title: 'Mercedez',
+        title: 'Rols Royce',
         desc: 'Lorem ipsum dolor sit amet consectetur adipiscing, elit risus est feugiat.',
         price: "$13.00",
     },
     {
         img: Car5,
-        title: 'Mercedez',
+        title: 'ferrari',
         desc: 'Lorem ipsum dolor sit amet consectetur adipiscing, elit risus est feugiat.',
         price: "$13.00",
     },
     {
         img: Car6,
-        title: 'Mercedez',
+        title: 'Honda',
         desc: 'Lorem ipsum dolor sit amet consectetur adipiscing, elit risus est feugiat.',
         price: "$13.00",
     },

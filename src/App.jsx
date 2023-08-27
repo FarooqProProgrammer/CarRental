@@ -7,17 +7,19 @@ import Cta from './components/Cta'
 import CarsCollection from './components/CarsCollection'
 import Footer from './components/Footer'
 import "./App.css"
+import Contact from './components/Contact'
 
 export default function App() {
   return (
-    <div>
+    <>
       <Header />
       <Hero />
       <Cars />
       {/* <CarsCollection /> */}
       <About />
+      <Contact />
       <Cta />
       <Footer />
-    </div>
+    </>
   )
 }

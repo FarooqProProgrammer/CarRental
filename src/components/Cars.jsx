@@ -4,10 +4,14 @@ import { Button, Modal } from 'antd';
 import { useStep } from '../context/StepContext';
 import Step1 from '../Forms/Step1';
 import Step2 from '../Forms/Step2';
+import { AiOutlineSearch } from "react-icons/ai"
 
 
 export default function Cars() {
     const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const [filerInput,setFilterInput] = useState();
+
     const showModal = () => {
         setIsModalOpen(true);
     };
@@ -31,8 +35,14 @@ export default function Cars() {
         <>
             <section className="text-gray-600 body-font" id='cars'>
                 <div className="container px-5 py-24 mx-auto">
-                    <div className='my-4 pb-10'>
-                        <h4 className='text-5xl font-Bold text-center'>Your Favourite Cars</h4>
+                    <div className='my-4 pb-10 flex flex-col justify-center items-center'>
+                        <h4 className='text-5xl font-Bold text-center mb-2'>Your Favourite Cars</h4>
+                        {/* <div className='w-[50%] flex justify-center items-center'>
+                            <input onChange={(e)=>setFilterInput(e.target.value)} type='text' placeholder='Enter Your Car Name: ' className='w-[50%] outline-none px-3  py-2 bg-transparent border rounded-md' />
+                            <div className='py-2 px-2 bg-sky-500 rounded-md'>
+                                <AiOutlineSearch  size={25} color='white' className='cursor-pointer' />
+                            </div>
+                        </div> */}
                     </div>
                     <div className="flex flex-wrap -m-4">
                         {
